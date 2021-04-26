@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bacraund"
+    tools:context=".GameActivity2"
+    tools:ignore="UnknownId">
+
+    <TextView
+        android:id="@+id/tv_level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/_2"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="420dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32sp"
+        android:background="@drawable/ic_line_bold"
+        android:gravity="center"
+        android:text="@string/geek_tech"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_level1"
+
+        />
+
+    <EditText
+        android:id="@+id/btn_answer"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="12dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:hint="@string/string"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/igm_view" />
+
+    <ImageView
+        android:id="@+id/igm_view"
+        android:layout_width="220dp"
+        android:layout_height="260dp"
+        android:src="@drawable/ic_geektech"
+        app:layout_constraintBottom_toTopOf="@+id/btn_answer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_text2"
+        tools:ignore="ContentDescription" />
+
+    <Button
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#112035"
+        android:text="ответ"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_answer"
+        tools:ignore="HardcodedText,UnusedAttribute" />
+</androidx.constraintlayout.widget.ConstraintLayout>

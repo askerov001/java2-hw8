@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lessosns - 8 - plao</string>
+    <string name="game_guess">GAME GUESS</string>
+    <string name="start_game">Start game</string>
+    <string name="exit">Exit</string>
+    <string name="_1">ВОПРОС 1</string>
+    <string name="c">СКОЛЬКО ЛЕТ CУЛАЙМАНОВУ НУРГАЗЫ?</string>
+    <string name="_2">ВОПРОС 2</string>
+    <string name="geek_tech">КОГДА БЫЛ ОСНОВАН GEEK TECH?</string>
+    <string name="string">Ваш ответ</string>
+</resources>
